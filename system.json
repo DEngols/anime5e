@@ -1,19 +1,19 @@
 {
-  "id": "dnd5e",
-  "title": "DnD5e - Fifth Edition System",
-  "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
-  "version": "2.1.5",
+  "id": "anime5e",
+  "title": "anime5e - Fifth Edition System",
+  "description": "Dyskami's anime5e game system.",
+  "version": "1",
   "compatibility": {
     "minimum": "10.291",
     "verified": "10"
   },
-  "url": "https://github.com/foundryvtt/dnd5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-  "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.1.5/dnd5e-release-2.1.5.zip",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "authors": [
     {
-      "name": "Atropos",
-      "url": "https://foundryvtt.com",
+      "name": "",
+      "url": "",
       "flags": {}
     }
   ],
@@ -137,6 +137,42 @@
       "label": "Tables (SRD)",
       "system": "dnd5e",
       "path": "packs/tables.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "anime5eAttributes",
+      "label": "anime5e Attributes (SRD)",
+      "system": "anime5e",
+      "path": "packs/anime5eAttribute.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "anime5eDefects",
+      "label": "anime5e Defects (SRD)",
+      "system": "anime5e",
+      "path": "packs/anime5eDefects.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "anime5eEnhancements",
+      "label": "anime5e Enhancements (SRD)",
+      "system": "anime5e",
+      "path": "packs/anime5eEnhancements.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "anime5eLimiters",
+      "label": "anime5e Limiters (SRD)",
+      "system": "anime5e",
+      "path": "packs/anime5eLimiters.db",
       "type": "RollTable",
       "private": false,
       "flags": {}

@@ -536,7 +536,7 @@
     }
   },
   "Item": {
-    "types": ["weapon", "equipment", "consumable", "tool", "loot", "background", "class", "subclass", "spell", "feat", "backpack"],
+    "types": ["weapon", "equipment", "consumable", "tool", "loot", "background", "class", "subclass", "spell", "feat", "backpack","anime5eAttribute","anime5eDefect", "anime5eEnhancement","anime5eLimiter"],
     "templates": {
       "itemDescription": {
         "description": {
@@ -622,6 +622,21 @@
           "dt": null,
           "conditions": ""
         }
+      },
+      "anime5eElements": {
+        "attributeCost": {
+          "points/rank": null
+        },
+        "relevantAbility": {
+          "ability": null
+        },
+        "attributeScope": {
+          "scope": null
+        },
+        "anime5eProgression": {
+          "progression": null
+        },
+        "source": ""
       }
     },
     "htmlFields": ["description.value", "description.chat", "description.unidentified"],
@@ -751,6 +766,34 @@
       "baseItem": "",
       "properties": {},
       "proficient": true
+    },
+    "anime5eAttribute": {
+      "templates": ["itemDescription","anime5eElement"],
+      "type": {
+        "value": "",
+        "subtype": ""
+      }
+    },
+    "anime5eDefect": {
+      "templates": ["itemDescription","anime5eElement"],
+      "type": {
+        "value": "",
+        "subtype": ""
+      }
+    },
+    "anime5eEnhancement": {
+      "templates": ["itemDescription","anime5eElement"],
+      "type": {
+        "value": "",
+        "subtype": ""
+      }
+    },
+    "anime5eLimiter": {
+      "templates": ["itemDescription","anime5eElement"],
+      "type": {
+        "value": "",
+        "subtype": ""
+      }
     }
   },
   "JournalEntryPage": {
