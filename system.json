@@ -1,19 +1,19 @@
 {
   "id": "anime5e",
   "title": "anime5e - Fifth Edition System",
-  "description": "Dyskami's anime5e game system.",
+  "description": "Dyskami's dnd5e game system.",
   "version": "1",
   "compatibility": {
     "minimum": "10.291",
     "verified": "10"
   },
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/DEngols/anime5e",
+  "manifest": "https://github.com/DEngols/anime5e",
+  "download": "https://github.com/DEngols/anime5e",
   "authors": [
     {
-      "name": "",
-      "url": "",
+      "name": "Ehysier",
+      "url": "https://github.com/DEngols/anime5e",
       "flags": {}
     }
   ],
@@ -144,36 +144,36 @@
     {
       "name": "anime5eAttributes",
       "label": "anime5e Attributes (SRD)",
-      "system": "anime5e",
+      "system": "dnd5e",
       "path": "packs/anime5eAttribute.db",
-      "type": "RollTable",
+      "type": "Item",
       "private": false,
       "flags": {}
     },
     {
       "name": "anime5eDefects",
       "label": "anime5e Defects (SRD)",
-      "system": "anime5e",
+      "system": "dnd5e",
       "path": "packs/anime5eDefects.db",
-      "type": "RollTable",
+      "type": "Item",
       "private": false,
       "flags": {}
     },
     {
       "name": "anime5eEnhancements",
       "label": "anime5e Enhancements (SRD)",
-      "system": "anime5e",
+      "system": "dnd5e",
       "path": "packs/anime5eEnhancements.db",
-      "type": "RollTable",
+      "type": "Item",
       "private": false,
       "flags": {}
     },
     {
       "name": "anime5eLimiters",
       "label": "anime5e Limiters (SRD)",
-      "system": "anime5e",
+      "system": "dnd5e",
       "path": "packs/anime5eLimiters.db",
-      "type": "RollTable",
+      "type": "Item",
       "private": false,
       "flags": {}
     }
