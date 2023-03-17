@@ -635,8 +635,7 @@
         },
         "anime5eProgression": {
           "progression": null
-        },
-        "source": ""
+        }
       }
     },
     "htmlFields": ["description.value", "description.chat", "description.unidentified"],
