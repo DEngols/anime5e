@@ -327,7 +327,8 @@ DND5E.abilityConsumptionTypes = {
   attribute: "DND5E.ConsumeAttribute",
   hitDice: "DND5E.ConsumeHitDice",
   material: "DND5E.ConsumeMaterial",
-  charges: "DND5E.ConsumeCharges"
+  charges: "DND5E.ConsumeCharges",
+  energy: "DND5E.ConsumeEnergy"
 };
 preLocalize("abilityConsumptionTypes", { sort: true });
 
